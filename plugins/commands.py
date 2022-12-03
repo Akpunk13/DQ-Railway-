@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/bots_supported')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -42,16 +42,14 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🤖 Creators', url='https://t.me/Ak_Bot_SupportGroup'),
-            InlineKeyboardButton('😊 About', callback_data='about')
-            ],[
-            InlineKeyboardButton('😎 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
-            InlineKeyboardButton('ℹ️ Help', callback_data='help')
-            ],[
-            InlineKeyboardButton('❤️ 𝓢𝓸𝓾𝓻𝓬𝓮', url='https://github.com/Akbotmakersnew/LUCIFER')
-        ]]
+                    InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                 ],[
+                    InlineKeyboardButton('🦋SΞΛᏒCH🦋', switch_inline_query_current_chat=''), 
+                    InlineKeyboardButton('🦋SUᎮᎮԾᏒϮ🦋', url=f"https://t.me/bots_supported")
+                 ],[
+                    InlineKeyboardButton('♻️𝐇𝐞𝐥𝐩♻️', callback_data='help'),
+                    InlineKeyboardButton('♻️𝐀𝐛𝐨𝐮𝐭♻️', callback_data='about')
+                 ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -87,16 +85,14 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/CC_autobot?startgroup=true')
-            ],[
-            InlineKeyboardButton('🤖 Creators', url='https://t.me/Ak_Bot_SupportGroup'),
-            InlineKeyboardButton('😊 About', callback_data='about')
-            ],[
-            InlineKeyboardButton('😎 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
-            InlineKeyboardButton('ℹ️ Help', callback_data='help')
-            ],[
-            InlineKeyboardButton('❤️ 𝓢𝓸𝓾𝓻𝓬𝓮', url='https://github.com/Akbotmakersnew/LUCIFER')
-        ]]
+                    InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                 ],[
+                    InlineKeyboardButton('🦋SΞΛᏒCH🦋', switch_inline_query_current_chat=''), 
+                    InlineKeyboardButton('🦋SUᎮᎮԾᏒϮ🦋', url=f"https://t.me/bots_supported")
+                 ],[
+                    InlineKeyboardButton('♻️𝐇𝐞𝐥𝐩♻️', callback_data='help'),
+                    InlineKeyboardButton('♻️𝐀𝐛𝐨𝐮𝐭♻️', callback_data='about')
+                 ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
