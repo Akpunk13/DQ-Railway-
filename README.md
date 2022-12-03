@@ -1,9 +1,9 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+AkBotDev's+Repo!;created+by+JOKER+TG!;A+simple+tg+FILE+SENDING+bot!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+AkBotDev's+Repo!;created+by+Exinos!;A+simple+tg+FILE+SENDING+bot!)</p>
 <p align="center">
-  <img src="assets/logo(1).jpg" alt="Akbotmakersnew Logo">
+  <img src="assets/logo(1).jpg" alt="Dq Logo">
 </p>
 <h1 align="center">
-  <b>LUCIFER BOT</b>
+  <b>DQ BOT</b>
 </h1>
 
 ## New Features
@@ -79,7 +79,7 @@ You can deploy this on [HEROKU.COM](https://heroku.com) & [RAILWAY](https://rail
 
 ## CREATOR
  
-* [JOKER TG🇮🇳](https://t.me/IAM_A_JOKER)
+* [JOKER TG🇮🇳](https://t.me/AFxSU)
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
