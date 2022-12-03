@@ -411,9 +411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  ],[
                     InlineKeyboardButton('♻️𝐇𝐞𝐥𝐩♻️', callback_data='help'),
                     InlineKeyboardButton('♻️𝐀𝐛𝐨𝐮𝐭♻️', callback_data='about')
-                  ],[
-                    InlineKeyboardButton('🌻 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 🌻', url="https://github.com/MyBotzz/RashmikaBot") 
-                   ]]
+                 ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -440,8 +438,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Dᴇᴠᴏʟᴏᴘᴇʀ',callback_data="source"),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('Dᴇᴠᴏʟᴏᴘᴇʀ',callback_data="ADMINS_TXT"),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://github.com/MyBotzz/RashmikaBot")
         ],[
             InlineKeyboardButton('𝐇𝐨𝐦𝐞', callback_data='start'),
             InlineKeyboardButton('𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
